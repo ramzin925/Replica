@@ -6,3 +6,119 @@ body{
     box-sizing: inherit;
     display: block;
 }
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.Conteudo-W3{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    font-size: large;
+    padding: 50px;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+.minha-arte{
+    color: black;
+    background-color: white;
+    float: left;
+}
+.W3-button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 24px;
+}
+.sobre{
+    color: black;
+    background-color: white;
+    float: right;
+
+}
+.fotos{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.exposição1 {
+    display: grid;
+    flex-direction: column;
+    gap: 0px;
+    max-width: 570px;
+    margin: 20px;
+}
+.exposição1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.exposição2{
+    display: flex;
+    position: absolute;
+    transform: translate(99%, -103%);
+    flex-direction: column;
+    gap: 0px;
+    max-width: 570px;
+    margin: 20px;
+}
+.exoposição2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.Rodape{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+.img-rodape{
+    width: 400px;
+    height: 400px;
+    padding-top: 32px;
+}
+p {
+    text-align: inherit;
+    margin: 15px;
+    font-size: 15px;
+}
+.texto{
+    color: red;
+    margin: auto;
+    padding: 15px;
+    font-size: 25px;
+}
+.form-de-contato{
+    border: 0px solid #ccc;
+}
+.section{
+    padding: 8px;
+    padding-left: 20px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.section input{
+    padding: 8px;
+    display: block;
+    width: 95%;
+}
+.botao{
+    background-color: #616161;
+    color: white;
+    width: 95%;
+    font-size: 20px;
+    margin: 10px;
+    padding: 8px 16px;
+    text-align: center;
+}   
+
